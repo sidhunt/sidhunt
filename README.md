@@ -5,7 +5,7 @@
 
 **Languages I have used**
 
-![Dart](https://img.shields.io/badge/-Python-000000?style=flat&logo=dartlang)
+![Dart](https://img.shields.io/badge/-Dart-000000?style=flat&logo=Dart)
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=python)
 ![HTML5](https://img.shields.io/badge/-HTML5-000000?style=flat&logo=HTML5)
 ![Java](https://img.shields.io/badge/-Java-000000?style=flat&logo=Java&logoColor=007396)
@@ -15,7 +15,7 @@
 
 **Some of the technologies I have worked with**
 
-![Flutter](https://img.shields.io/badge/-Python-000000?style=flat&logo=flutter@color=blue)
+![Flutter](https://img.shields.io/badge/-Flutter-000000?style=flat&logo=Flutter@color=blue)
 ![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat&logo=github&logoColor=FFFFFF)
 ![Jira](https://img.shields.io/badge/-Jira-000000?style=flat&logo=jira-software&logoColor=white&logoColor=0052CC)
