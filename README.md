@@ -1,4 +1,5 @@
 
+
 [![Header](https://media.giphy.com/media/debCoZ6a5aFuSHY1S5/giphy.gif)](https://www.linkedin.com/in/sbadola5/)
 
 [![Siddhant Badola Portfolio](https://img.shields.io/badge/-CHECK%20MY%20PORTFOLIO-000000?style=for-the-badge&logo=react&logoColor=white)](https://sidhunt.github.io/online-resume/)
@@ -18,7 +19,13 @@
 ![Flutter](https://img.shields.io/badge/-Flutter-000000?style=flat&logo=Flutter&logoColor=02569B)
 ![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat&logo=github&logoColor=FFFFFF)
-![VS Code](https://img.shields.io/badge/-VS%20Code-000000?style=flat&logo=visualstudiocode)
+![Gitlab](https://img.shields.io/badge/-Gitlab-000000?style=flat&logo=Gitlab)
+![VS Code](https://img.shields.io/badge/-VS%20Code-000000?style=flat&logo=visual-studio-code&logoColor=blue)
+![Android Studio](https://img.shields.io/badge/-Android%20Studio-000000?style=flat&logo=android-studio)
+![Firebase](https://img.shields.io/badge/-Firebase-000000?style=flat&logo=Firebase)
+![Slack](https://img.shields.io/badge/-Slack-000000?style=flat&logo=Slack)
+![Trello](https://img.shields.io/badge/-Trello-000000?style=flat&logo=Trello)
+![GCP](https://img.shields.io/badge/-GCP-000000?style=flat&logo=google-cloud)
 ![Jira](https://img.shields.io/badge/-Jira-000000?style=flat&logo=jira-software&logoColor=white&logoColor=0052CC)
 ![Linux](https://img.shields.io/badge/-Linux-000000?style=flat&logo=linux&logoColor=FCC624)
 ![TCP/IP](https://img.shields.io/badge/-TCP/IP-000000?style=flat&logo=cisco&logoColor=white)
