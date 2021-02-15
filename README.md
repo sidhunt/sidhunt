@@ -1,7 +1,5 @@
 
-<img src="https://media.giphy.com/media/toXbu8xYIAcbXFrIli/giphy.gif" width="500" height="200">
-
-[![Header](https://media.giphy.com/media/toXbu8xYIAcbXFrIli/giphy.gif&size=500x200)](https://www.linkedin.com/in/sbadola5/)
+[![Header](https://drive.google.com/file/d/1V2MT64i6WuAQFv9Dw8-XLidw5Lnr5cnp/view?usp=sharing)](https://www.linkedin.com/in/sbadola5/)
 
 [![adamalston.com](https://img.shields.io/badge/-ADAMALSTON.COM-000000?style=for-the-badge&logo=react&logoColor=white)](https://www.adamalston.com/)
 
