@@ -13,8 +13,8 @@ with title_color=0B0A0A<br>
 https://github-readme-stats.vercel.app/api?username=&show_icons=true&title_color=8fe9e0&icon_color=79ff97&text_color=ffc984&bg_color=151515
 
 This how it must look like once its done
-username=anushkrishnav  //Use your github username to get your stats
-![](https://github-readme-stats.vercel.app/api?username=anushkrishnav&show_icons=true&title_color=8fe9e0&icon_color=79ff97&text_color=ffc984&bg_color=151515)
+username=sidhunt  //Use your github username to get your stats
+![](https://github-readme-stats.vercel.app/api?username=sidhunt&show_icons=true&title_color=8fe9e0&icon_color=79ff97&text_color=ffc984&bg_color=151515)
 <!--
 **sidhunt/sidhunt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
