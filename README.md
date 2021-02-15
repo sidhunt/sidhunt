@@ -1,7 +1,7 @@
 
 [![Header](https://media.giphy.com/media/debCoZ6a5aFuSHY1S5/giphy.gif)](https://www.linkedin.com/in/sbadola5/)
 
-[![adamalston.com](https://img.shields.io/badge/-ADAMALSTON.COM-000000?style=for-the-badge&logo=react&logoColor=white)](https://www.adamalston.com/)
+[![adamalston.com](https://img.shields.io/badge/-PORTFOLIO-000000?style=for-the-badge&logo=react&logoColor=white)](https://www.adamalston.com/)
 
 **Languages I have used**
 
