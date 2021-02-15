@@ -1,5 +1,5 @@
 
-[![Header](https://gph.is/g/4VD1Y2Y)](https://www.linkedin.com/in/sbadola5/)
+[![Header](https://media.giphy.com/media/toXbu8xYIAcbXFrIli/giphy.gif)](https://www.linkedin.com/in/sbadola5/)
 
 [![adamalston.com](https://img.shields.io/badge/-ADAMALSTON.COM-000000?style=for-the-badge&logo=react&logoColor=white)](https://www.adamalston.com/)
 
