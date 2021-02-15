@@ -5,7 +5,7 @@
 
 **Languages I have used**
 
-![C](https://img.shields.io/badge/-C-000000?style=flat&logo=C)
+![C](https://img.shields.io/badge/-Flutter-000000?style=flat&logo=Flutter)
 ![C++](https://img.shields.io/badge/-C++-000000?style=flat&logo=C%2B%2B&logoColor=00599C)
 ![Clojure](https://img.shields.io/badge/-Clojure-000000?style=flat&logo=Clojure)
 ![HTML5](https://img.shields.io/badge/-HTML5-000000?style=flat&logo=HTML5)
