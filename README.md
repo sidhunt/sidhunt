@@ -25,36 +25,22 @@
 ![Firebase](https://img.shields.io/badge/-Firebase-000000?style=flat&logo=Firebase)
 ![Slack](https://img.shields.io/badge/-Slack-000000?style=flat&logo=Slack)
 ![Trello](https://img.shields.io/badge/-Trello-000000?style=flat&logo=Trello)
+![WebRTC](https://img.shields.io/badge/-WebRTC-000000?style=flat&logo=webrtc)
 ![GCP](https://img.shields.io/badge/-GCP-000000?style=flat&logo=google-cloud)
+![Google Play Console](https://img.shields.io/badge/-Google%20Play%20Console-000000?style=flat&logo=google-play)
+![Anaconda](https://img.shields.io/badge/-Anaconda-000000?style=flat&logo=anaconda)
+![Jupyter Notebooks](https://img.shields.io/badge/-Jupyter%20Notebooks-000000?style=flat&logo=jupyter)
 ![Jira](https://img.shields.io/badge/-Jira-000000?style=flat&logo=jira-software&logoColor=white&logoColor=0052CC)
 ![Linux](https://img.shields.io/badge/-Linux-000000?style=flat&logo=linux&logoColor=FCC624)
 ![TCP/IP](https://img.shields.io/badge/-TCP/IP-000000?style=flat&logo=cisco&logoColor=white)
 ![XCode](https://img.shields.io/badge/-XCode-000000?style=flat&logo=XCode&logoColor=1575F9)<!-- wi*quL3fcV -->
 
-**Web/Full Stack projects**
+**Projects**
 
-[![My Website](https://img.shields.io/badge/-🧬&nbsp;&nbsp;My&nbsp;Website-000000?style=flat)](https://github.com/adamalston/v2)
-[![COVID-19 Dashboard](https://img.shields.io/badge/-🦠&nbsp;COVID&#8209;19&nbsp;Dashboard-000000?style=flat)](https://github.com/adamalston/COVID-19-Dashboard)
-[![Summarizer](https://img.shields.io/badge/-📰&nbsp;&nbsp;Summarizer-000000?style=flat)](https://github.com/adamalston/Summarizer)
-[![Voice Poker](https://img.shields.io/badge/-🃏&nbsp;Voice&nbsp;Poker-000000?style=flat)](https://github.com/adamalston/Poker)
-[![PokémonGo Map](https://img.shields.io/badge/-🗺️&nbsp;PokémonGo&nbsp;Map-000000?style=flat)](https://github.com/adamalston/PokemonGo-Map)
-
-**Cybersecurity projects**
-
-[![Heartbleed](https://img.shields.io/badge/-🩸&nbsp;Heartbleed-000000?style=flat)](https://github.com/adamalston/Heartbleed)
-[![SYN Flood](https://img.shields.io/badge/-🌊&nbsp;&nbsp;SYN&nbsp;Flood-000000?style=flat)](https://github.com/adamalston/SYN-Flood)
-[![Packet Sniffing & Spoofing](https://img.shields.io/badge/-🗃️&nbsp;Packet&nbsp;Sniffing&nbsp;&&nbsp;Spoofing-000000?style=flat)](https://github.com/adamalston/Packet-Sniffing-and-Spoofing)
-[![SQL Injection](https://img.shields.io/badge/-💉&nbsp;&nbsp;SQL&nbsp;Injection-000000?style=flat)](https://github.com/adamalston/SQL-Injection)
-[![Spectre & Meltdown](https://img.shields.io/badge/-🛡️&nbsp;Spectre&nbsp;&&nbsp;Meltdown-000000?style=flat)](https://github.com/adamalston/Meltdown-Spectre)
-
-**Other projects**
-
-[![Clean My Mac](https://img.shields.io/badge/-🧼&nbsp;&nbsp;Clean&nbsp;My&nbsp;Mac-000000?style=flat)](https://github.com/adamalston/Clean-My-Mac)
-[![SMTP](https://img.shields.io/badge/-📧&nbsp;&nbsp;SMTP-000000?style=flat)](https://github.com/adamalston/SMTP)
-[![Network Tools](https://img.shields.io/badge/-📡&nbsp;&nbsp;Network&nbsp;Tools-000000?style=flat)](https://github.com/adamalston/Network-Tools)
-[![Cache Simulator](https://img.shields.io/badge/-⛓️&nbsp;Cache&nbsp;Simulator-000000?style=flat)](https://github.com/adamalston/CacheSimulator)
-[![RGB Text Colorizer](https://img.shields.io/badge/-🌈&nbsp;&nbsp;RGB&nbsp;Text&nbsp;Colorizer-000000?style=flat)](https://github.com/adamalston/rgbTextColorizer)
-
-<img align="" height='130px' src="https://github-readme-stats.vercel.app/api?username=adamalston&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite" /><img align="" height='130px' src="https://github-readme-stats.vercel.app/api/top-langs/?username=adamalston&hide_title=true&layout=compact&bg_color=0,73FA79,73FDFF,7A81FF&theme=graywhite" />
-
-⭐️ From [AdamAlston](https://github.com/adamalston)
+[![SchoolERP](https://img.shields.io/badge/-🏫SchoolERP-000000?style=flat)](https://github.com/sidhunt/SchoolERP-showcase)
+[![# Hand-Gesture-Media-Controller](https://img.shields.io/badge/-🖐Hand%20Gesture%20Media%20Controller-000000?style=flat)](https://github.com/sidhunt/Hand-Gesture-Media-Controller)
+[![BakBak](https://img.shields.io/badge/-👾BakBak-000000?style=flat)](https://github.com/sidhunt/bak-bak)
+[![News App](https://img.shields.io/badge/-🌎News%20App-000000?style=flat)](https://github.com/sidhunt/News-App-Showcase)
+[![Sarkari Yojana](https://img.shields.io/badge/-📰Indian%20Government%20Schemes%20App-000000?style=flat)](https://github.com/sidhunt/SarkariYojanaDemo)
+[![ML Implementations](https://img.shields.io/badge/-🤖ML%20Implementations-000000?style=flat)](https://github.com/sidhunt/ML-implementations)
+<img align="" height='130px' src="https://github-readme-stats.vercel.app/api?username=sidhunt&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite" /><img align="" height='130px' src="https://github-readme-stats.vercel.app/api/top-langs/?username=sidhunt&hide_title=true&layout=compact&bg_color=0,73FA79,73FDFF,7A81FF&theme=graywhite" />
