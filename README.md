@@ -46,23 +46,17 @@
 [![Movie App](https://img.shields.io/badge/%F0%9F%8D%BF-Movie%20App-%20black?style=flat)](https://github.com/sidhunt/Movie-Design-App)
 
 
-
-https://user-images.githubusercontent.com/17046049/171031021-55298166-6dc5-48d2-b825-454a95fca2b3.mp4
-
-
-
-<!-- <p float="left">
-  <img src="https://github.com/sidhunt/SchoolERP-showcase/raw/main/parent.mp4" width="125" height="250">
-  <img src="https://github.com/sidhunt/SchoolERP-showcase/raw/main/Parent.gif" width="125" height="250">
-<img src="https://github.com/sidhunt/SchoolERP-showcase/raw/main/Students.gif" width="125" height="250">
-<img src="https://github.com/sidhunt/Hand-Gesture-Media-Controller/raw/main/demo.gif" width="125" height="250">
-<img src="https://github.com/sidhunt/bak-bak/raw/main/bakbak.gif" width="125" height="250">
-<img src="https://github.com/sidhunt/News-App-Showcase/raw/main/feed2.gif" width="125" height="250">
-<img src="https://github.com/sidhunt/SarkariYojanaDemo/raw/main/yojna.gif" width="125" height="250"/>
-<img src="https://github.com/sidhunt/SarkariYojanaDemo/raw/main/yojna2.gif" width="125" height="250"/>
-<img src="https://github.com/sidhunt/Movie-Design-App/raw/main/g1.gif" width="125" height="250">
+<p float="left">
+  <img loading="lazy" src="https://github.com/sidhunt/SchoolERP-showcase/raw/main/Parent.gif" width="125" height="250">
+<img loading="lazy" src="https://github.com/sidhunt/SchoolERP-showcase/raw/main/Students.gif" width="125" height="250">
+<img loading="lazy" src="https://github.com/sidhunt/Hand-Gesture-Media-Controller/raw/main/demo.gif" width="125" height="250">
+<img loading="lazy" src="https://github.com/sidhunt/bak-bak/raw/main/bakbak.gif" width="125" height="250">
+<img loading="lazy" src="https://github.com/sidhunt/News-App-Showcase/raw/main/feed2.gif" width="125" height="250">
+<img loading="lazy" src="https://github.com/sidhunt/SarkariYojanaDemo/raw/main/yojna.gif" width="125" height="250"/>
+<img loading="lazy" src="https://github.com/sidhunt/SarkariYojanaDemo/raw/main/yojna2.gif" width="125" height="250"/>
+<img loading="lazy" src="https://github.com/sidhunt/Movie-Design-App/raw/main/g1.gif" width="125" height="250">
   
-</p> -->
+</p>
 <!-- <img align="" height='130px' src="https://github-readme-stats.vercel.app/api?username=sidhunt&include_all_commits=true&count_private=true&hide=prs&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite" /> -->
 
 <img align="" height='230px' src="https://github-readme-stats.vercel.app/api/top-langs/?username=sidhunt&hide=Jupyter%20Notebook&langs_count=10&layout=compact&theme=cobalt" />
