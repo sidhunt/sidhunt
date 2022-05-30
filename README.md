@@ -45,7 +45,11 @@
 [![ML Implementations](https://img.shields.io/badge/-🤖ML%20Implementations-000000?style=flat)](https://github.com/sidhunt/ML-implementations)
 [![Movie App](https://img.shields.io/badge/%F0%9F%8D%BF-Movie%20App-%20black?style=flat)](https://github.com/sidhunt/Movie-Design-App)
 <p float="left">
-<img src="https://github.com/sidhunt/SchoolERP-showcase/raw/main/Parent.gif" width="125" height="250">
+<video autoplay="autoplay" loop="loop" width="125" height="250">
+  <source src="https://github.com/sidhunt/SchoolERP-showcase/raw/main/parent.mp4" type="video/mp4" />
+  <img src="https://github.com/sidhunt/SchoolERP-showcase/raw/main/Parent.gif" width="125" height="250">
+</video>
+
 <img src="https://github.com/sidhunt/SchoolERP-showcase/raw/main/Students.gif" width="125" height="250">
 <img src="https://github.com/sidhunt/Hand-Gesture-Media-Controller/raw/main/demo.gif" width="125" height="250">
 <img src="https://github.com/sidhunt/bak-bak/raw/main/bakbak.gif" width="125" height="250">
