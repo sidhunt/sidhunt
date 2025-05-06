@@ -74,13 +74,15 @@ I'm a **Senior Software Engineer** and aspiring **Technical Product Manager** ba
 
 ## 💡 Featured Projects
 
-| Project | Description | Link |
-| ------- | ----------- | ---- |
-| 🏫 **SchoolERP** | Role-based education platform with real-time syncing and parental portals. | [View](https://github.com/sidhunt/SchoolERP-showcase) |
-| 🖐 **Gesture Media Controller** | Python+OpenCV project that lets users control media via hand gestures. | [View](https://github.com/sidhunt/Hand-Gesture-Media-Controller) |
-| 👾 **BakBak** | Firebase-powered gaming community app with chat and multiplayer games. | [View](https://github.com/sidhunt/bak-bak) |
-| 🌎 **News Aggregator** | Personalized news app with bookmarking and offline viewing support. | [View](https://github.com/sidhunt/News-App-Showcase) |
-| 🤖 **ML Demos** | Assorted machine learning scripts including traffic sign detection. | [View](https://github.com/sidhunt/ML-implementations) |
+| Project | Description | Link | Preview |
+| ------- | ----------- | ---- | ---- |
+| 🏫 **SchoolERP** | Role-based education platform with real-time syncing and parental portals. | [View](https://github.com/sidhunt/SchoolERP-showcase) | <img src="https://github.com/sidhunt/SchoolERP-showcase/raw/main/Parent.gif" width="150"/> |
+| 🖐 **Gesture Media Controller** | Python+OpenCV project that lets users control media via hand gestures. | [View](https://github.com/sidhunt/Hand-Gesture-Media-Controller) | <img src="https://github.com/sidhunt/Hand-Gesture-Media-Controller/raw/main/demo.gif" width="150"/> |
+| 👾 **BakBak** | Firebase-powered gaming community app with chat and multiplayer games. | [View](https://github.com/sidhunt/bak-bak) | <img src="https://github.com/sidhunt/bak-bak/raw/main/bakbak.gif" width="150"/> |
+| 🌎 **News Aggregator** | Personalized news app with bookmarking and offline viewing support. | [View](https://github.com/sidhunt/News-App-Showcase) | <img src="https://github.com/sidhunt/News-App-Showcase/raw/main/feed2.gif" width="150"/> |
+| 🤖 **ML Demos** | Assorted machine learning scripts including traffic sign detection. | [View](https://github.com/sidhunt/ML-implementations) | <!-- Add a relevant GIF or image if available --> |
+| 🇮🇳 **Sarkari Yojana** | A sample repository showing work in Sarkari Yojana App 2020. | [View](https://github.com/sidhunt/SarkariYojanaDemo) | <img src="https://github.com/sidhunt/SarkariYojanaDemo/raw/main/yojna.gif" width="150"/> |
+| 🎬 **Movie App** | A movie app made in Flutter project using TMDB API. | [View](https://github.com/sidhunt/Movie-Design-App) | <img src="https://github.com/sidhunt/Movie-Design-App/raw/main/g1.gif" width="150"/> |
 
 ---
 
