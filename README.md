@@ -33,7 +33,7 @@ I'm a **Senior Software Engineer** and aspiring **Technical Product Manager** ba
 ## 🔧 Tech Stack & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=dart,flutter,python,tensorflow,keras,firebase,gcp,git,github,linux,androidstudio,vscode,xcode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=dart,flutter,python,tensorflow,firebase,gcp,git,github,linux,androidstudio,vscode,xcode&theme=dark" />
 </p>
 
 ---
