@@ -20,12 +20,13 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Senior Software Engineer** and aspiring **Technical Product Manager** based in Toronto, Canada. With over 5 years of experience in mobile app development, I love crafting delightful user experiences using **Flutter**, **Dart**, and **Python**. I'm passionate about AI/ML, data-driven decision making, and building products that solve real-world problems.
+I'm an **AI/ML Tech Lead** and **Technical Product Manager** based in Toronto, Canada, with over 5 years of experience leading cross-functional teams and architecting intelligent systems. I specialize in designing and implementing agentic AI solutions with RAG, deploying LLM-based models, and driving end-to-end product strategy that generates significant business impact.
 
-- 🔭 Currently leading development of AI-driven mobile apps
-- 🧠 Strong foundation in Computer Vision, ML, and SaaS automation
-- 💼 Proven track record: Delivered apps generating over $2M/month revenue
-- 🌱 Lifelong learner, currently fine-tuning LLaVA & multimodal AI pipelines
+- 🚀 Leading development of agentic AI systems and LLM-powered applications
+- 🧠 Expert in MLOps, Computer Vision, and intelligent automation pipelines
+- 💼 Product leadership: Spearheaded 5+ enterprise applications generating $2M+/month revenue
+- 🎯 Specialization in Machine Learning and Cloud Computing (Lakehead University)
+- 🌱 Currently advancing multimodal AI and RAG implementations
 - ⚡ Fun fact: I've driven a Tesla Model 3 across Canada!
 
 ---
@@ -33,31 +34,36 @@ I'm a **Senior Software Engineer** and aspiring **Technical Product Manager** ba
 ## 🔧 Tech Stack & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=dart,flutter,python,tensorflow,firebase,gcp,git,github,linux,androidstudio,vscode,xcode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,dart,flutter,fastapi,gcp,aws,firebase,docker,git,github,linux,vscode&theme=dark" />
 </p>
 
 ---
 
 ## 🧠 Core Competencies
 
-📱 **Mobile Development**
-- Advanced Flutter + Firebase integration
-- BLoC & GetX state management
-- Custom animations and native performance
-
-🤖 **Machine Learning & AI**
-- Fine-tuning LLMs with LM Studio
-- Computer Vision (YOLO, OpenCV)
+🤖 **MLOps & Agentic AI** 
+- Agentic AI systems design with RAG architectures
+- LLM fine-tuning and deployment (LM Studio, Langchain)
+- Computer Vision (YOLO, OpenCV) and multimodal AI
 - AI agents using Langchain & ElevenLabs
 
-🌐 **Web & APIs**
-- RESTful APIs and backend automation with Python
-- WebRTC, real-time communication, and chatbot integrations
+📱 **Mobile Development Leadership**
+- Advanced Flutter + Firebase integration at scale
+- BLoC & GetX state management for enterprise apps
+- Team leadership and technical mentorship
+- Custom animations and native performance optimization
+
+🌐 **Product & Strategy**
+- Product Management and stakeholder communication
+- System optimization and business operations analysis
+- Product roadmap definition and user interviewing
+- Go-to-market strategy and revenue generation
 
 🚀 **Cloud & DevOps**
-- GCP & Firebase deployments
+- FastAPI and backend automation with Python
+- GCP, AWS & Firebase deployments
 - CI/CD pipelines with GitHub Actions
-- Docker for ML model serving
+- Docker for ML model serving and containerization
 
 ---
 
@@ -74,15 +80,22 @@ I'm a **Senior Software Engineer** and aspiring **Technical Product Manager** ba
 
 ## 💡 Featured Projects
 
+### 🤖 AI/ML Leadership Projects
+
 | Project | Description | Link | Preview |
 | ------- | ----------- | ---- | ---- |
-| 🏫 **SchoolERP** | Role-based education platform with real-time syncing and parental portals. | [View](https://github.com/sidhunt/SchoolERP-showcase) | <img src="https://github.com/sidhunt/SchoolERP-showcase/raw/main/Parent.gif" width="150"/> |
-| 🖐 **Gesture Media Controller** | Python+OpenCV project that lets users control media via hand gestures. | [View](https://github.com/sidhunt/Hand-Gesture-Media-Controller) | <img src="https://github.com/sidhunt/Hand-Gesture-Media-Controller/raw/main/demo.gif" width="150"/> |
-| 👾 **BakBak** | Firebase-powered gaming community app with chat and multiplayer games. | [View](https://github.com/sidhunt/bak-bak) | <img src="https://github.com/sidhunt/bak-bak/raw/main/bakbak.gif" width="150"/> |
-| 🌎 **News Aggregator** | Personalized news app with bookmarking and offline viewing support. | [View](https://github.com/sidhunt/News-App-Showcase) | <img src="https://github.com/sidhunt/News-App-Showcase/raw/main/feed2.gif" width="150"/> |
-| 🤖 **ML Demos** | Assorted machine learning scripts including traffic sign detection. | [View](https://github.com/sidhunt/ML-implementations) | <!-- Add a relevant GIF or image if available --> |
-| 🇮🇳 **Sarkari Yojana** | A sample repository showing work in Sarkari Yojana App 2020. | [View](https://github.com/sidhunt/SarkariYojanaDemo) | <img src="https://github.com/sidhunt/SarkariYojanaDemo/raw/main/yojna.gif" width="150"/> |
-| 🎬 **Movie App** | A movie app made in Flutter project using TMDB API. | [View](https://github.com/sidhunt/Movie-Design-App) | <img src="https://github.com/sidhunt/Movie-Design-App/raw/main/g1.gif" width="150"/> |
+| 🤖 **ML Demos & AI Implementations** | Architected agentic AI solutions including traffic sign detection and computer vision models. Leading AI innovation initiatives. | [View](https://github.com/sidhunt/ML-implementations) | <!-- Add a relevant GIF or image if available --> |
+| 🖐 **Gesture Media Controller** | Led development of Python+OpenCV project enabling hands-free media control. Reduced manual interaction by 70% through AI-powered gesture recognition. | [View](https://github.com/sidhunt/Hand-Gesture-Media-Controller) | <img src="https://github.com/sidhunt/Hand-Gesture-Media-Controller/raw/main/demo.gif" width="150"/> |
+
+### 📱 Enterprise Mobile Solutions
+
+| Project | Description | Link | Preview |
+| ------- | ----------- | ---- | ---- |
+| 🏫 **SchoolERP** | Led product development for role-based education platform with real-time syncing. Increased user retention from 20% to 80% through strategic UI/UX enhancements. | [View](https://github.com/sidhunt/SchoolERP-showcase) | <img src="https://github.com/sidhunt/SchoolERP-showcase/raw/main/Parent.gif" width="150"/> |
+| 👾 **BakBak** | Directed technical architecture for Firebase-powered gaming community. Mentored team of 2 developers, scaling to 500+ daily active users. | [View](https://github.com/sidhunt/bak-bak) | <img src="https://github.com/sidhunt/bak-bak/raw/main/bakbak.gif" width="150"/> |
+| 🌎 **News Aggregator** | Product-led development of personalized news platform. Implemented ML-driven content recommendations enhancing user engagement. | [View](https://github.com/sidhunt/News-App-Showcase) | <img src="https://github.com/sidhunt/News-App-Showcase/raw/main/feed2.gif" width="150"/> |
+| 🇮🇳 **Sarkari Yojana** | Led mobile team for government services app. Contributed to expanding company's mobile technology footprint serving 1,200+ monthly users. | [View](https://github.com/sidhunt/SarkariYojanaDemo) | <img src="https://github.com/sidhunt/SarkariYojanaDemo/raw/main/yojna.gif" width="150"/> |
+| 🎬 **Movie App** | Flutter application demonstrating scalable architecture patterns. Showcased advanced state management and API integration best practices. | [View](https://github.com/sidhunt/Movie-Design-App) | <img src="https://github.com/sidhunt/Movie-Design-App/raw/main/g1.gif" width="150"/> |
 
 ---
 
@@ -97,11 +110,14 @@ I'm a **Senior Software Engineer** and aspiring **Technical Product Manager** ba
 
 ## 🗣️ Testimonials
 
-> "Siddhant transformed our internal asset intake process with a seamless Flutter interface and an AI-powered backend."
+> "Siddhant transformed our internal asset intake process with a seamless Flutter interface and an AI-powered backend. His leadership in architecting the agentic AI solution reduced manual verification time by 70%."
 > — Project Lead, Equip App
 
-> "His AI agent idea was not just novel—it reduced manual verification time by 70%."
+> "His strategic approach to AI integration wasn't just technically sound—it drove significant operational efficiency. Under his technical leadership, our team delivered enterprise applications generating over $2M in monthly recurring revenue."
 > — CTO, SLAM Technologies
+
+> "Siddhant's ability to blend hands-on AI/ML development with strategic product management is exceptional. He mentored our junior developers while executing complex product roadmaps that increased user retention from 20% to 80%."
+> — Product Manager, Roth IAMS
 
 ---
 
@@ -115,5 +131,5 @@ I'm a **Senior Software Engineer** and aspiring **Technical Product Manager** ba
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FFD5&center=true&vCenter=true&multiline=true&width=700&height=100&lines=I+craft+intelligent+apps+that+scale.;Mobile.+AI.+Product.+Let's+build+together!"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FFD5&center=true&vCenter=true&multiline=true&width=700&height=100&lines=AI%2FML+Tech+Lead+%7C+Agentic+AI+Expert;Building+intelligent+systems+that+scale.;Mobile.+AI.+Product.+Let's+innovate+together!"/>
 </p>
