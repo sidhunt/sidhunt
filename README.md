@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/debCoZ6a5aFuSHY1S5/giphy.gif" width="200" height="200" alt="AI Animation"/>
+  <!-- <img src="https://media.giphy.com/media/debCoZ6a5aFuSHY1S5/giphy.gif" width="200" height="200" alt="AI Animation"/> -->
   
   # Hi there, I'm Siddhant Badola! 👋
   
