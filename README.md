@@ -1,30 +1,31 @@
 <div align="center">
-  <!-- <img src="https://media.giphy.com/media/debCoZ6a5aFuSHY1S5/giphy.gif" width="200" height="200" alt="AI Animation"/> -->
-  
+
   # Hi there, I'm Siddhant Badola! 👋
-  
+
   <p>
-    <strong>AI/ML Tech Lead & Technical Product Manager</strong><br/>
+    <strong>Founder & Principal Engineer, DISSID Labs Inc.</strong><br/>
     🌍 Based in Toronto, Canada<br/>
-    🚀 Crafting intelligent systems that scale
+    🚀 Production agentic AI · LLM infrastructure · Edge ML — 7+ years mobile → AI
   </p>
-  
+
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sbadola5/)
-  [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sidhunt_b)
   [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:siddhantbadola5@gmail.com)
   [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://sidhunt.github.io/sidhunt/)
+  [![Company](https://img.shields.io/badge/DISSID_Labs_Inc.-dissid.ca-2496ED?style=for-the-badge)](https://dissid.ca/)
 </div>
 
 ---
 
 ## 🚀 About Me
 
-I'm an **AI/ML Tech Lead** and **Technical Product Manager** with **5+ years** of experience leading cross-functional teams and architecting intelligent systems. I specialize in designing and implementing agentic AI solutions with RAG, deploying LLM-based models, and driving end-to-end product strategy that generates significant business impact.
+Founder and Principal Engineer at **DISSID Labs Inc.**, building production agentic-AI systems end to end: multi-agent orchestration with policy guardrails, LLM infrastructure, RAG with measurable citation quality, and on-device/edge ML. My track record is measured, not asserted — every result below ships with its number.
 
-- 🤖 **AI/ML Leadership**: Leading agentic AI systems and LLM-powered applications
-- ✨ **MLOps Expert**: Computer Vision, intelligent automation pipelines  
-- 🎯 **Product Strategy**: 5+ enterprise apps generating **$2M+/month** revenue
-- ⚡ **Innovation**: Advancing multimodal AI and RAG implementations
+- 🤖 **Agentic AI**: multi-agent operating systems with code-level guardrails and a signed, hash-chained audit ledger
+- 💰 **LLM infrastructure**: routing that moved ~90% of token workload off paid APIs (26.75 tok/s on CPU, $0 marginal cost); semantic cache measured at 0.7% false-hit — the only sub-1% configuration on its benchmark (github.com/sidhunt)
+- 📱→🧠 **Edge ML**: 400% on-device inference speed-up (Core ML / Android NNAPI); 4-hour batch → sub-3-second real-time pipeline (Kafka)
+- 🏢 **Enterprise impact**: subsidiary revenue $0 → ~$2M/month; user retention 20% → 80%
+- 📜 **Patents**: two US provisional patents (64/101,388 · 64/102,636 — scan-before-shred)
+- 🌐 **Upstream**: routing-fix PR open on LiteLLM (59k+ stars), CI green
 
 ---
 
@@ -34,24 +35,22 @@ I'm an **AI/ML Tech Lead** and **Technical Product Manager** with **5+ years** o
 
 ### 🤖 MLOps & Agentic AI
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
+![llama.cpp](https://img.shields.io/badge/llama.cpp-0769AD?style=for-the-badge&logo=openai&logoColor=white)
 
-### 📱 Mobile Development Leadership
+### 📱 Mobile & Edge
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Core ML](https://img.shields.io/badge/Core_ML-000000?style=for-the-badge&logo=apple&logoColor=white)
 
-### 🌐 Web & Backend
+### 🌐 Backend & Infra
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-
-### ☁️ Cloud & DevOps
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
@@ -65,20 +64,20 @@ I'm an **AI/ML Tech Lead** and **Technical Product Manager** with **5+ years** o
 <tr>
 <td width="50%">
 
-### 🤖 MLOps & Agentic AI
-- Agentic AI systems design with RAG architectures
-- LLM fine-tuning and deployment (LM Studio, Langchain)
-- Computer Vision (YOLO, OpenCV) and multimodal AI
-- AI agents using Langchain & ElevenLabs
+### 🤖 Agentic AI & LLM Infra
+- Multi-agent systems with policy guardrails in code
+- RAG pipelines with release-gated fabrication & citation metrics
+- Cost routing: complexity-based tiering + self-hosted inference
+- Evaluation: paired A/B controls, benchmark-measured caching
 
 </td>
 <td width="50%">
 
-### 📱 Mobile Development Leadership
-- Advanced Flutter + Firebase integration at scale
-- BLoC & GetX state management for enterprise apps
-- Team leadership and technical mentorship
-- Custom animations and native performance optimization
+### 📱 Mobile & Edge ML
+- Flutter + Firebase at scale; BLoC state management
+- On-device inference: Core ML, Android NNAPI, TF-Lite
+- Real-time pipelines: Kafka, sub-3-second event-driven backends
+- MLOps around production models
 
 </td>
 </tr>
@@ -86,19 +85,19 @@ I'm an **AI/ML Tech Lead** and **Technical Product Manager** with **5+ years** o
 <td width="50%">
 
 ### 🌐 Product & Strategy
-- Product Management and stakeholder communication
-- System optimization and business operations analysis
-- Product roadmap definition and user interviewing
-- Go-to-market strategy and revenue generation
+- Product management certification (BrainStation)
+- Roadmap definition and user interviewing
+- Go-to-market and pricing strategy
+- Technical mentorship — instructed Python & data structures (Coding Ninjas, 2019)
 
 </td>
 <td width="50%">
 
 ### 🚀 Cloud & DevOps
 - FastAPI and backend automation with Python
-- GCP, AWS & Firebase deployments
+- AWS & GCP deployments
 - CI/CD pipelines with GitHub Actions
-- Docker for ML model serving and containerization
+- Docker for model serving and containerization
 
 </td>
 </tr>
@@ -108,22 +107,99 @@ I'm an **AI/ML Tech Lead** and **Technical Product Manager** with **5+ years** o
 
 ## 🚀 Featured Projects
 
-### 🤖 AI/ML Leadership Projects
+### 🤖 Agentic AI & LLM Infrastructure (current)
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🧠 [qm](https://github.com/sidhunt/qm)
+Multiplayer agent harness for work.
+
+**Tech:** `Python` `TypeScript` `Agents`
+
+</td>
+<td width="50%">
+
+#### 🛡 [dissid-audit-mcp](https://github.com/sidhunt/dissid-audit-mcp)
+MCP server: Ed25519-signed, hash-chained audit ledger so every agent action is attributable and revocable.
+
+**Tech:** `TypeScript` `MCP` `Ed25519`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 🧰 [jarvis-starter-kit](https://github.com/sidhunt/jarvis-starter-kit)
+One-command bootstrap for an agent operating system with guardrails.
+
+**Tech:** `Shell` `AgentOps`
+
+</td>
+<td width="50%">
+
+#### 🌳 [treequest](https://github.com/sidhunt/treequest)
+Tree-search library with a flexible API for LLM inference-time scaling.
+
+**Tech:** `Python` `Inference`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 📡 [RuView](https://github.com/sidhunt/RuView)
+Commodity WiFi signals into real-time spatial intelligence, vital-sign monitoring, and presence detection — no video pixels.
+
+**Tech:** `Python` `Signal Processing` `Edge`
+
+</td>
+<td width="50%">
+
+#### 💹 [TradingAgents](https://github.com/sidhunt/TradingAgents)
+Multi-agent LLM financial-trading framework.
+
+**Tech:** `Python` `Multi-Agent`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### ⚡ [litellm](https://github.com/sidhunt/litellm)
+Active fork of the LiteLLM AI gateway; routing-fix PR open upstream (CI green).
+
+**Tech:** `LLM Gateway` `Routing`
+
+</td>
+<td width="50%">
+
+#### 🐜 [antfarm](https://github.com/sidhunt/antfarm)
+Build your agent team in OpenClaw with one command.
+
+**Tech:** `AgentOps`
+
+</td>
+</tr>
+</table>
+
+### 🎓 ML & Research
 
 <table>
 <tr>
 <td width="50%">
 
 #### 🔬 [ML Implementations](https://github.com/sidhunt/ML-implementations)
-Architected agentic AI solutions including traffic sign detection and computer vision models. Leading AI innovation initiatives.
+Computer-vision models including traffic-sign detection.
 
-**Tech:** `Python` `TensorFlow` `OpenCV` `ML`
+**Tech:** `Python` `TensorFlow` `OpenCV`
 
 </td>
 <td width="50%">
 
 #### 🖐 [Gesture Media Controller](https://github.com/sidhunt/Hand-Gesture-Media-Controller)
-Led development of Python+OpenCV project enabling hands-free media control. **Reduced manual interaction by 70%** through AI-powered gesture recognition.
+Hands-free media control via gesture recognition.
 
 **Tech:** `Python` `OpenCV` `Computer Vision`
 
@@ -133,15 +209,15 @@ Led development of Python+OpenCV project enabling hands-free media control. **Re
 <td width="50%">
 
 #### 🧠 [AI Photo Brightening](https://github.com/sidhunt/AI-Photo-Brightening)
-MIRNet TF-Lite Model with Flutter App to brighten low light images using advanced AI techniques.
+MIRNet TF-Lite model with a Flutter app to brighten low-light images.
 
-**Tech:** `Flutter` `TensorFlow Lite` `AI` `Mobile`
+**Tech:** `Flutter` `TensorFlow Lite` `Mobile`
 
 </td>
 <td width="50%">
 
 #### 📊 [Research Projects](https://github.com/sidhunt/Research_Projects)
-Research conducted for Masters in CS, including advanced ML algorithms and system implementations.
+MSc Computer Science research — ML algorithms and system implementations.
 
 **Tech:** `Python` `Research` `Machine Learning`
 
@@ -156,7 +232,7 @@ Research conducted for Masters in CS, including advanced ML algorithms and syste
 <td width="50%">
 
 #### 🏫 [SchoolERP](https://github.com/sidhunt/SchoolERP-showcase)
-Led product development for role-based education platform with real-time syncing. **Increased user retention from 20% to 80%** through strategic UI/UX enhancements.
+Role-based education platform with real-time syncing. **User retention 20% → 80%** via UX re-architecture.
 
 **Tech:** `Flutter` `Firebase` `Real-time DB`
 
@@ -164,7 +240,7 @@ Led product development for role-based education platform with real-time syncing
 <td width="50%">
 
 #### 👾 [BakBak Gaming](https://github.com/sidhunt/bak-bak)
-Directed technical architecture for Firebase-powered gaming community. Mentored team of 2 developers, scaling to **500+ daily active users**.
+Firebase-powered gaming community; scaled to **500+ daily active users**.
 
 **Tech:** `Flutter` `Firebase` `Community Platform`
 
@@ -174,69 +250,32 @@ Directed technical architecture for Firebase-powered gaming community. Mentored 
 <td width="50%">
 
 #### 🌎 [News Aggregator](https://github.com/sidhunt/News-App-Showcase)
-Product-led development of personalized news platform. Implemented ML-driven content recommendations enhancing user engagement.
+Personalized news platform with ML-driven content recommendations.
 
 **Tech:** `Flutter` `API Integration` `ML`
 
 </td>
 <td width="50%">
 
-#### 🇮🇳 [Sarkari Yojana](https://github.com/sidhunt/SarkariYojanaDemo)
-Led mobile team for government services app. Contributed to expanding company's mobile technology footprint serving **1,200+ monthly users**.
+#### 🏢 [SLAM / Roth IAMS (production, NDA-safe summary)](https://www.linkedin.com/in/sbadola5/)
+GenAI into a government-contracted product · 400% on-device speed-up · sub-3s pipeline · subsidiary $0 → ~$2M/month.
 
-**Tech:** `Flutter` `Government APIs` `Mobile`
-
-</td>
-</tr>
-</table>
-
-### 🎬 Additional Projects
-
-<details>
-<summary><strong>📱 Click to see more mobile and web projects</strong></summary>
-
-- **[Movie Design App](https://github.com/sidhunt/Movie-Design-App)** - Flutter application demonstrating scalable architecture patterns
-- **[Bored App](https://github.com/sidhunt/Bored-App)** - Flutter app using Bored API to suggest activities
-- **[Go Quiz App](https://github.com/sidhunt/go-quiz-untimed)** - CLI quiz application built with Golang
-- **[Twitter Bot](https://github.com/sidhunt/TwitterBot)** - Automated Twitter bot for social media engagement
-- **[Portfolio Website](https://github.com/sidhunt/sidhunt)** - Modern Next.js portfolio with animations
-
-</details>
-
----
-
-## 📈 GitHub Analytics
-
-<div align="center">
-<table>
-<tr>
-<td width="50%">
-
-<img src="https://github-readme-stats.vercel.app/api?username=sidhunt&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-
-</td>
-<td width="50%">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sidhunt&hide=jupyter%20notebook&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+**Tech:** `Kafka` `Flutter` `Core ML` `NNAPI` `GenAI`
 
 </td>
 </tr>
 </table>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=sidhunt&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-</div>
-
 ---
 
-## 🏆 Professional Highlights
+## 📈 Measured Results
 
-- 🚀 **$2M+ Monthly Revenue**: Led enterprise applications generating significant business impact
-- 📈 **80% User Retention**: Improved from 20% through strategic product enhancements  
-- 👥 **Team Leadership**: Mentored developers and led cross-functional teams
-- 🤖 **AI Innovation**: Pioneered agentic AI solutions with RAG architectures
-- 📱 **Enterprise Scale**: Built applications serving 1,200+ monthly active users
-- 💡 **Operational Efficiency**: Reduced manual processes by 70% through automation
+- 💰 **~90% of token workload off paid APIs** at 26.75 tok/s on CPU, $0 marginal cost
+- 🎯 **0.7% false-hit** semantic cache (22.7% recall) — only sub-1% configuration measured on the benchmark
+- 🧠 **Agent memory recall 33.3% → 77.8%** under paired A/B controls, fabrication cost reported
+- 📈 **Retention 20% → 80%** · **sub-3-second pipeline** (was 4-hour batch) · **400% on-device speed-up**
+- 💵 **Subsidiary revenue $0 → ~$2M/month**
+- 📜 **2× US provisional patents** (64/101,388 · 64/102,636)
 
 ---
 
@@ -257,17 +296,15 @@ Led mobile team for government services app. Contributed to expanding company's 
 
 <div align="center">
 
-**Ready to collaborate on innovative AI/ML projects?**
+**Ready to collaborate on agentic AI, LLM infrastructure, or edge ML?**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sbadola5/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:siddhantbadola5@gmail.com)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sidhunt_b)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://sidhunt.github.io/sidhunt/)
 
 <br/>
 
-💡 **AI/ML Tech Lead | Agentic AI Expert | Product Strategist**  
-🌟 *Building intelligent systems that scale. Mobile. AI. Product. Let's innovate together!*
+💡 **Founder @ DISSID Labs Inc. | Senior AI Engineer — Agentic AI · LLM Infra · Edge ML**
 
 </div>
 
