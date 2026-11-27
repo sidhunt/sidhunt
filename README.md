@@ -14,6 +14,12 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sbadola5-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sbadola5/)
 [![Email](https://img.shields.io/badge/Direct-sid%40dissid.ca-111111?style=for-the-badge&logo=minutemailer&logoColor=white)](mailto:sid@dissid.ca)
 
+<br/><br/>
+
+<p align="center">
+  <img src="./assets/vertical_autonomy_stack.svg" width="100%" alt="The Vertical Autonomy Stack: From Silicon to Swarms" />
+</p>
+
 </div>
 
 ---
@@ -30,6 +36,10 @@ Along the way, I hit an uncomfortable truth that most of the software industry i
 When I saw that industry-standard real-time operating systems drop over 67% of motor control deadlines under synthetic bus traffic (Zephyr Discussion #75424), I couldn't unsee it. When I saw edge AI runtimes lock the CPU for 15 milliseconds just to multiply a matrix—starving safety-critical actuators—I knew patching high-level software wouldn't fix it.
 
 You cannot build true autonomy on top of non-deterministic foundations.
+
+<p align="center">
+  <img src="./assets/architectural_conviction.svg" width="100%" alt="The Architectural Conviction: Leaky Abstractions vs. Deterministic Ground Truth" />
+</p>
 
 So I chose to drill down to the metal. I built a sovereign, on-prem hardware lab that compiles, verifies, and runs cycle-accurate simulations 24/7. And I started rebuilding the vertical stack from scratch: from the microsecond scheduling floor of silicon to the neuro-symbolic cognition of autonomous machines.
 
@@ -66,6 +76,10 @@ Autonomy isn't just machines operating alone; it's high-tempo collaboration wher
 - **Anduril Lattice Cognitive Architecture**: Modeled operator degradation and decision hesitation in multi-domain command-and-control environments.
 - **Empirical Bio-Signals**: Grounded on clinical EEG multitasking datasets (STEW), pupillometric cognitive load telemetry (`ds003838`), and fatigue progression (`ds007169`).
 - **Cognitive Resource Allocation (CRA)**: Algorithmic detection of operator saturation, dynamically shedding load and transferring control authority to autonomous agent swarms before failure occurs.
+
+<p align="center">
+  <img src="./assets/cognitive_architecture_infographic.png" width="100%" alt="Anduril Lattice Cognitive Red-Team Architecture: Bio-Signal Grounding & CRA Swarm Offload" />
+</p>
 
 ---
 
