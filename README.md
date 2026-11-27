@@ -113,16 +113,16 @@ Rather than asserting claims, every result is publicly reproducible:
 - **Hugging Face Interactive Space**: [SiddhantB/aetheros-realtime-benchmark](https://huggingface.co/spaces/SiddhantB/aetheros-realtime-benchmark) — Interactive P99.9 latency histogram vs Zephyr RTOS.
 - **NAVSIM v2 Challenge Hub**: [SiddhantB/navsim-aetheros-shield](https://huggingface.co/SiddhantB/navsim-aetheros-shield) — 96.29 PDMS trajectory planning submission.
 - **Comma.ai Openpilot Validation**: [PR #2 (100 Routes)](https://github.com/sidhunt/tesla-world-model-tri-shield/pull/2) — Real-world openpilot route verification.
-- **EvalAI Benchmark Suite**: [deliverables/evalai_submission](https://github.com/sidhunt/dissid-home/tree/master/deliverables/evalai_submission) — Automated cycle verification suite.
+- **AetherOS Benchmark Suite**: [sidhunt/tiny_results_v1.4](https://github.com/sidhunt/tiny_results_v1.4) — Reproducible MLCommons harness & timing logs.
 
 ---
 
 ## Flagship Systems & Repositories
 
-### ⚡ [dissid-home](https://github.com/sidhunt/dissid-home)
-**The Sovereign Systems & Microkernel Monorepo**  
-Home of **AetherOS**, dual-band neural microkernel, Zephyr C ABI shims (`z_shim`), Renode cycle-accurate emulation, and sovereign Jenkins CI/CD dispatchers.  
-`Rust` `#![no_std]` `ARM Cortex-R52` `STM32H7` `Renode`
+### ⚡ [tiny_results_v1.4 (AetherOS MLPerf Core)](https://github.com/sidhunt/tiny_results_v1.4)
+**Neural-Native Microkernel & MLPerf Tiny Open Division Benchmark**  
+Public submission and verification harness for **AetherOS**, demonstrating 83–125 ns neural yield, zero memory allocation, and zero deadline breaches on ARM Cortex-R52 & STM32H7. *(Proprietary microkernel runtime licensed through DISSID LABS INC.)*  
+`Rust` `#![no_std]` `ARM Cortex-R52` `STM32H7` `MLPerf`
 
 ### 🚗 [tesla-world-model-tri-shield](https://github.com/sidhunt/tesla-world-model-tri-shield)
 **Autonomous Driving World Model & Control Shield**  
