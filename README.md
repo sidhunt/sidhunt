@@ -150,6 +150,18 @@ Engineered semantic cost routing and load balancing for 59k+ star multi-provider
 
 ---
 
+## Engineering Engagements & Advisory
+
+Through **DISSID LABS INC.**, I work directly with principals—technical founders, research directors, and VPs of Engineering—on safety-critical systems, edge autonomy, and high-throughput infrastructure:
+
+- **Deterministic Edge AI & Microkernel Architecture:** Hard-realtime motor loop isolation, `#![no_std]` Rust microkernel integration, and sub-microsecond INT8 tensor tiling on ARM Cortex-R52 / STM32H7.
+- **Autonomous World Models & Kinematic Safety Shielding:** Port-Hamiltonian energy envelope enforcement, HOCBF actuator lag compensation, and OOD stress testing on NAVSIM / Comma.ai pipelines.
+- **Enterprise Scale & Real-Time Distributed Architecture:** 0-to-1 distributed pipeline design, semantic caching, edge mobile inference, and high-retention architectural turnarounds.
+
+*Direct principal engagements only · No intermediary agency markups.*
+
+---
+
 ## Direct Dispatch & Contact
 
 I collaborate with founders, research directors, and engineering leaders who care about hard systems that do not break.
