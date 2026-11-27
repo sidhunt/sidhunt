@@ -24,6 +24,20 @@
 
 ---
 
+## ⚡ The 10-Second Executive Matrix: Cross-Domain Architecture
+
+> **For Technical Recruiters & Principals:** I operate as a cross-disciplinary generalist systems architect. Rather than siloing into a single narrow layer, I solve mission-critical problems by synthesizing five interconnected domains:
+
+| Domain Beat | Core Problem Addressed | Production Artifact | Measured Ground Truth | Stack |
+|---|---|---|---|---|
+| **Computer Science & Microkernel Systems** | Real-time RTOS priority inversions & deadline collapse under bus traffic | [sidhunt/tiny_results_v1.4](https://github.com/sidhunt/tiny_results_v1.4) · [MLPerf #1](https://github.com/mlcommons/tiny_results_v1.4/pull/1) | **0 breaches / 100k cycles** · **3.22 µs P99.9 jitter** (1,123× cut vs Zephyr) | `#![no_std]` Rust · ARM Cortex-R52 · Renode |
+| **Geography & Autonomous Kinematics** | Trajectory collapse & out-of-distribution hallucinations in vehicle world models | [tesla-world-model-tri-shield](https://github.com/sidhunt/tesla-world-model-tri-shield) · [NAVSIM Hub](https://huggingface.co/SiddhantB/navsim-aetheros-shield) | **96.29 PDMS (NAVSIM v2)** · **-29.55% lateral MSE** across 100 openpilot routes | PyTorch · ONNX · Comma TinyPhysics · Spatial GIS |
+| **Geopolitics & Cognitive Defense** | Multi-domain operator cognitive saturation & task shedding during tactical friction | [anduril-lattice-cognitive-redteam](https://github.com/sidhunt/anduril-lattice-cognitive-redteam) | Grounded on clinical EEG (STEW) & pupillometry (`ds003838`) · Dynamic CRA swarm offload | Python · PyO3/Rust · MAVLink SITL · Neuro-telemetry |
+| **Machine Learning & Distributed Systems** | Cloud inference latency spikes, memory contention, and runaway API cost | [sidhunt/litellm](https://github.com/sidhunt/litellm) · [Cache Engine](https://dissid.ca) | **0.7% false-hit rate** · 90% cloud cost cut via 26.75 tok/s sovereign edge nodes | LiteLLM (59k★) · Vector embeddings · Caching |
+| **History & Computational Foundations** | Historical cycle of software bloat: 1970s Unix determinism to 2020s leaky cloud abstractions | [DISSID Monorepo Architecture](https://dissid.ca) | 2× US Provisional Patents (**64/101,388**, **64/102,636**) · Enterprise $0→$2M/mo ARR | Data architecture · Formal verification · Distributed systems |
+
+---
+
 ## The Origin & The Conviction
 
 I didn't start in safety-critical microkernels. I spent seven years building mobile operating surfaces, real-time distributed pipelines, and production machine learning—scaling enterprise systems from $0 to $2M/month in recurring revenue and driving user retention from 20% to 80%.
@@ -45,37 +59,38 @@ So I chose to drill down to the metal. I built a sovereign, on-prem hardware lab
 
 ---
 
-## What I Build & Why It Matters
+## Flagship Systems Clustered by Domain Beat
 
-### 1. The Deterministic Floor: AetherOS
-*Neural-Native Dual-Band Microkernel · `#![no_std]` Rust on ARM Cortex-R52 & STM32H7*
+### 🔬 Cluster A: Computer Science & Hard-Realtime Systems
+**The Problem:** Traditional RTOS and neural runtimes share an unpartitioned memory bus. Heavy neural inference stalls real-time motor control loops, causing catastrophic mechanical latency jitter.  
+**The Solution:** Dual-band microkernel isolation separating hard-deadline 10 kHz motor loops (Band 1) from deep neural inference (Band 2) with zero dynamic heap allocation.
 
-Safety-critical systems shouldn't gamble with latency. AetherOS isolates hard-deadline motor control (Band 1) from deep neural inference (Band 2) with zero dynamic heap allocation and lock-free SPSC temporal channels.
-- **1,123× Jitter Reduction**: Reduced P99.9 tail jitter from **3,622 µs** (Zephyr RTOS baseline) to **3.22 µs** under a 10,000 pps synthetic bus contention flood.
-- **Zero Deadline Breaches**: 0 breaches out of 100,000 continuous 10 kHz FOC motor control cycles (vs. Zephyr's 67,860 breaches).
-- **Sub-Microsecond Neural Yield**: Chunked INT8 tensor tiles yield the CPU in **83 ns – 125 ns**, allowing deep neural networks to co-exist with 10 kHz motor loops without latency spikes.
-- **Rank #1 MLPerf Tiny (v1.4 Open Division)**: Submitted to MLCommons ([PR #1](https://github.com/mlcommons/tiny_results_v1.4/pull/1)) with 0.884 AUC on ToyADMOS and zero allocation overhead.
-- **Live Simulator**: [Hugging Face Space](https://huggingface.co/spaces/SiddhantB/aetheros-realtime-benchmark) with interactive Metric of Shame latency histogram.
-
----
-
-### 2. Autonomous Physics: Tesla World Model & NAVSIM
-*Predictive Kinematics Fused with Emergency Shielding*
-
-Most autonomous vehicle trajectory planners either hallucinate in unseen long-tail distributions or rely on hand-tuned heuristics that fight the neural planner.
-- **NAVSIM v2 Challenge**: Scored **96.29 PDMS** and **85.70 Navhard EPDMS** on the official autonomous vehicle trajectory planning benchmark ([Hugging Face Model](https://huggingface.co/SiddhantB/navsim-aetheros-shield)).
-- **Comma.ai TinyPhysics ONNX**: Validated across 100 real openpilot driving routes, achieving a **-29.55% reduction in lateral tracking MSE** and **-24.24% reduction in total operational cost**.
-- **Anytime Output Latching**: Guarantees that even if sensor bandwidth spikes and inference is interrupted mid-pass, the vehicle always latches a mathematically valid, monotonically bounded trajectory.
+* **[sidhunt/tiny_results_v1.4 (AetherOS MLPerf Core)](https://github.com/sidhunt/tiny_results_v1.4)**  
+  Official Open Division submission to MLCommons ([PR #1](https://github.com/mlcommons/tiny_results_v1.4/pull/1)). Achieved Rank #1 on ToyADMOS anomaly detection (0.884 AUC) with chunked INT8 tensor tiles yielding the CPU in **83 ns – 125 ns**.  
+  *Telemetry:* **3.22 µs P99.9 jitter** under 10k pps bus flood (vs Zephyr's 3,622 µs) · **0 breaches / 100k cycles** (vs Zephyr's 67,860 breaches).  
+  *Artifacts:* [Interactive Latency Simulator](https://huggingface.co/spaces/SiddhantB/aetheros-realtime-benchmark) · `Rust` `#![no_std]` `ARM Cortex-R52` `STM32H7` `Renode`
 
 ---
 
-### 3. Cognitive Defense: Neuro-Physiological Red-Teaming
-*Bio-Signal Grounding for High-Stakes Human-Machine Teaming*
+### 🗺️ Cluster B: Geography, Geospatial Kinematics & Autonomous World Models
+**The Problem:** Neural end-to-end driving models suffer from covariate shift in out-of-distribution road geometry, causing trajectory divergence and phantom braking.  
+**The Solution:** Fusing learned neural predictive world models with energy-bounded Hamiltonian physics and actuator lag-compensated safety barriers.
 
-Autonomy isn't just machines operating alone; it's high-tempo collaboration where human operators face cognitive overload and task shedding under pressure.
-- **Anduril Lattice Cognitive Architecture**: Modeled operator degradation and decision hesitation in multi-domain command-and-control environments.
-- **Empirical Bio-Signals**: Grounded on clinical EEG multitasking datasets (STEW), pupillometric cognitive load telemetry (`ds003838`), and fatigue progression (`ds007169`).
-- **Cognitive Resource Allocation (CRA)**: Algorithmic detection of operator saturation, dynamically shedding load and transferring control authority to autonomous agent swarms before failure occurs.
+* **[sidhunt/tesla-world-model-tri-shield](https://github.com/sidhunt/tesla-world-model-tri-shield)**  
+  Closed-loop autonomous trajectory planner and kinematic shield. Combines spatial geometric path planning with runtime emergency override shields.  
+  *Telemetry:* **96.29 PDMS** on NAVSIM v2 official benchmark ([Hugging Face Model Hub](https://huggingface.co/SiddhantB/navsim-aetheros-shield)) · **-29.55% lateral tracking MSE reduction** and **-24.24% cost reduction** verified across 100 real Comma.ai openpilot driving routes ([PR #2](https://github.com/sidhunt/tesla-world-model-tri-shield/pull/2)).  
+  *Artifacts:* Closed-loop simulator · Anytime output latching (guaranteed valid trajectory under sensor dropouts) · `PyTorch` `ONNX` `NAVSIM` `Comma.ai`
+
+---
+
+### 🛡️ Cluster C: Geopolitics, Human-Machine Teaming & Cognitive Defense
+**The Problem:** Modern multi-domain defense command-and-control (C2) environments generate sensory overload. Under high-tempo geopolitical friction, human operators experience cognitive tunneling and task-shedding, leading to critical decision hesitation.  
+**The Solution:** Grounding autonomous agent swarms in empirical neuro-physiological telemetry to monitor operator cognitive load and dynamically rebalance authority before collapse.
+
+* **[sidhunt/anduril-lattice-cognitive-redteam](https://github.com/sidhunt/anduril-lattice-cognitive-redteam)**  
+  Cognitive defense and neuro-physiological workload simulation engine built around the Anduril Lattice multi-domain architecture.  
+  *Telemetry:* Calibrated against clinical EEG multitasking datasets (STEW), pupillometric cognitive load telemetry (`ds003838`), and fatigue progression (`ds007169`). High-throughput Rust telemetry engine (`crates/lattice-cognitive-rs`) streaming through PyO3 with zero-copy deserialization.  
+  *Artifacts:* Closed-loop SITL MAVLink adapter · Dynamic Cognitive Resource Allocation (CRA) load-shedder · `Python` `Rust/PyO3` `EEG/STEW` `MAVLink`
 
 <p align="center">
   <img src="./assets/cognitive_architecture_infographic.png" width="100%" alt="Anduril Lattice Cognitive Red-Team Architecture: Bio-Signal Grounding & CRA Swarm Offload" />
@@ -83,61 +98,25 @@ Autonomy isn't just machines operating alone; it's high-tempo collaboration wher
 
 ---
 
-### 4. Sovereign Infrastructure: Zero-Marginal-Cost Intelligence
-*On-Prem Sovereign Edge Nodes · Semantic Routing*
+### 🌐 Cluster D: Machine Learning & High-Throughput Distributed Scale
+**The Problem:** Centralized cloud LLM APIs create latency spikes, vendor lock-in, and unsustainable unit economics for enterprise scale.  
+**The Solution:** Distributed semantic caching and edge routing gateways that shift compute to self-hosted, sovereign infrastructure.
 
-Relying on external cloud APIs for real-time intelligence is a strategic and economic vulnerability.
-- **24/7 Sovereign Edge Hardware**: On-prem AMD Zen 2 bare-metal controller running continuous Jenkins CI/CD, cross-compilation toolchains, and regression suites without cloud reliance.
-- **Sub-1% False-Hit Semantic Caching**: Designed an embedding cache measured at **0.7% false-hit rate** with 22.7% recall—the only sub-1% false-hit configuration on the benchmark.
-- **90% Cost Elimination**: Routed ~90% of token workload away from paid frontier APIs to self-hosted CPU/edge inference running at 26.75 tok/s at $0 marginal cost.
-- **Upstream Contributor**: PR open and CI green on LiteLLM (59k+ stars).
-
----
-
-### 5. Enterprise Commercial Scale & Intellectual Property
-*The Bridge Between Deep Science and Commercial Viability*
-
-I do not build science projects that sit on a shelf; I build systems that generate durable commercial value.
-- **Enterprise Revenue**: Scaled enterprise subsidiary recurring revenue from **$0 to ~$2M/month** through technical architecture and product execution.
-- **Retention Turnaround**: Re-architected real-time mobile sync and UX, turning around user retention from **20% to 80%**.
-- **Edge Mobile Speedup**: Engineered Core ML and Android NNAPI pipelines delivering **400% on-device speedup** and replacing 4-hour batch jobs with sub-3-second Kafka streams.
-- **Patents**: Issued 2× US Provisional Patents (**64/101,388** and **64/102,636** — scan-before-shred data architecture).
+* **[sidhunt/litellm (Upstream Contributor)](https://github.com/sidhunt/litellm)**  
+  Engineered semantic cost routing and load balancing for the 59k+ star multi-provider LLM proxy.  
+  *Telemetry:* Achieved **0.7% false-hit rate** with 22.7% recall in semantic caching benchmarks (only configuration below 1% false-hit). Re-routed ~90% of token volume to self-hosted CPU/edge inference running at 26.75 tok/s at zero marginal token cost.  
+  *Artifacts:* Upstream pull requests and automated CI tests · `Python` `LiteLLM` `Distributed Systems` `Semantic Routing`
 
 ---
 
-## Live Benchmark Standings & Verified Proof
+### 🏛️ Cluster E: History & Computational Foundations
+**The Problem:** Modern enterprise software stacks suffer from compounding architectural debt—layering brittle abstraction over brittle abstraction until systems fail under scale.  
+**The Solution:** Tracing architectural failures to their historical root causes and rebuilding scalable data pipelines with provable correctness.
 
-Rather than asserting claims, every result is publicly reproducible:
-
-- **MLCommons MLPerf Tiny v1.4**: [mlcommons/tiny_results_v1.4#1](https://github.com/mlcommons/tiny_results_v1.4/pull/1) — Open Division submission with 125 ns yield and zero breaches.
-- **Hugging Face Interactive Space**: [SiddhantB/aetheros-realtime-benchmark](https://huggingface.co/spaces/SiddhantB/aetheros-realtime-benchmark) — Interactive P99.9 latency histogram vs Zephyr RTOS.
-- **NAVSIM v2 Challenge Hub**: [SiddhantB/navsim-aetheros-shield](https://huggingface.co/SiddhantB/navsim-aetheros-shield) — 96.29 PDMS trajectory planning submission.
-- **Comma.ai Openpilot Validation**: [PR #2 (100 Routes)](https://github.com/sidhunt/tesla-world-model-tri-shield/pull/2) — Real-world openpilot route verification.
-- **AetherOS Benchmark Suite**: [sidhunt/tiny_results_v1.4](https://github.com/sidhunt/tiny_results_v1.4) — Reproducible MLCommons harness & timing logs.
-
----
-
-## Flagship Systems & Repositories
-
-### ⚡ [tiny_results_v1.4 (AetherOS MLPerf Core)](https://github.com/sidhunt/tiny_results_v1.4)
-**Neural-Native Microkernel & MLPerf Tiny Open Division Benchmark**  
-Public submission and verification harness for **AetherOS**, demonstrating 83–125 ns neural yield, zero memory allocation, and zero deadline breaches on ARM Cortex-R52 & STM32H7. *(Proprietary microkernel runtime licensed through DISSID LABS INC.)*  
-`Rust` `#![no_std]` `ARM Cortex-R52` `STM32H7` `MLPerf`
-
-### 🚗 [tesla-world-model-tri-shield](https://github.com/sidhunt/tesla-world-model-tri-shield)
-**Autonomous Driving World Model & Control Shield**  
-Fuses predictive vehicle dynamics with hard-deadline emergency trajectory overrides. Tested on 100 openpilot routes and NAVSIM v2.  
-`Python` `PyTorch` `ONNX` `NAVSIM` `Comma.ai`
-
-### 🛡️ [anduril-lattice-cognitive-redteam](https://github.com/sidhunt/anduril-lattice-cognitive-redteam)
-**Cognitive Defense & Neuro-Physiological Workload Engine**  
-Mitigates Cognitive Resource Allocation collapse via EEG bio-signal modeling (STEW) and automated agent load redistribution.  
-`Python` `EEG / STEW` `Pupillometry` `Cognitive Architecture`
-
-### ⚡ [litellm (Upstream Contributor)](https://github.com/sidhunt/litellm)
-**High-Throughput AI Gateway Routing**  
-Engineered semantic cost routing and load balancing for 59k+ star multi-provider LLM proxy.  
-`Python` `AI Gateway` `Distributed Routing`
+* **Enterprise Commercial Scale & Intellectual Property:**  
+  Scaled enterprise subsidiary recurring revenue from **$0 to ~$2M/month** through technical architecture and product execution. Re-architected real-time mobile sync and UX, turning around user retention from **20% to 80%**.  
+  *Patents:* Issued 2× US Provisional Patents (**64/101,388** and **64/102,636** — scan-before-shred data architecture).  
+  *Edge Mobile Speedup:* Engineered Core ML and Android NNAPI pipelines delivering **400% on-device speedup** and replacing 4-hour batch jobs with sub-3-second Kafka streams.
 
 ---
 
@@ -159,6 +138,19 @@ Through **DISSID LABS INC.**, I work directly with principals—technical founde
 - **Enterprise Scale & Real-Time Distributed Architecture:** 0-to-1 distributed pipeline design, semantic caching, edge mobile inference, and high-retention architectural turnarounds.
 
 *Direct principal engagements only · No intermediary agency markups.*
+
+---
+
+## 📦 Archived Applied Prototypes & Community Solutions (2020–2022)
+
+> **Foundational Applied Engineering:** The following community projects and client prototypes represent earlier engineering milestones in mobile systems, computer vision, and civic software. These early projects established the applied debugging discipline that now informs our deep-tech microkernel work:
+
+- **[SchoolERP-showcase](https://github.com/sidhunt/SchoolERP-showcase):** Educational ERP infrastructure featuring real-time WebRTC video streaming and administrative workflow engines.
+- **[Hand-Gesture-Media-Controller](https://github.com/sidhunt/Hand-Gesture-Media-Controller):** Real-time computer vision pipeline using OpenCV for low-latency hand gesture recognition and spatial media control.
+- **[bak-bak](https://github.com/sidhunt/bak-bak):** High-throughput mobile messaging client featuring asynchronous media pipelines and offline-first state synchronization.
+- **[News-App-Showcase](https://github.com/sidhunt/News-App-Showcase):** Multilingual content aggregation and news indexing engine with dynamic topic clustering.
+- **[SarkariYojanaDemo](https://github.com/sidhunt/SarkariYojanaDemo):** Civic technology data pipeline and distributed public alert notification engine.
+- **[ML-implementations](https://github.com/sidhunt/ML-implementations):** Core machine learning, neural network, and numerical optimization algorithms implemented from mathematical first principles.
 
 ---
 
